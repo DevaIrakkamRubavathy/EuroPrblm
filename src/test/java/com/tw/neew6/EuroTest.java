@@ -21,6 +21,18 @@ public class EuroTest {
     }
 
     @Test
+    void shouldReturnNotEqualWhenValuesOfEurosAreNotEqual() {
+        Euro euro1 = new Euro(10);
+        Euro euro2 = new Euro(5);
+
+        double euroValue1 = euro1.getEuro();
+        double euroValue2 = euro2.getEuro();
+
+        assertNotEquals(euroValue1, euroValue2);
+
+    }
+
+    @Test
     void shouldReturnNotEqualWhenSerialNumberOfEurosAreNotEqual() {
         Euro euro1 = new Euro(10);
         Euro euro2 = new Euro(10);
