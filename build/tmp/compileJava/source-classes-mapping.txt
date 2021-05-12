@@ -1,0 +1,2 @@
+com/tw/neev6/Euro.java
+ com.tw.neev6.Euro

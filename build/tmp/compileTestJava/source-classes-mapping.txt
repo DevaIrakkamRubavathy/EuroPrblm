@@ -1,0 +1,2 @@
+com/tw/neew6/EuroTest.java
+ com.tw.neew6.EuroTest
